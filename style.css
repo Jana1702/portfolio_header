@@ -1,0 +1,130 @@
+/* Allgemein  */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation  */
+
+nav {
+  text-align: right;
+  letter-spacing: 2px;
+  font-size: 17px;
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 4%;
+  height: 100px;
+  max-width: 1500px;
+}
+
+li {
+  display: inline;
+  margin: 2%;
+}
+
+a {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  color: #5c6270;
+
+  opacity: 1;
+}
+
+nav a:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+#menu-active {
+  font-weight: 700;
+  color: #261a51;
+}
+
+#logo {
+  font-size: 13px;
+  text-align: left;
+  line-height: 20px;
+  margin-left: 4%;
+  float: left;
+  color: #c0c1c4;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100px;
+  font-size: 95px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+
+  color: #5c6270;
+}
+
+h2 {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: -10px;
+
+  color: #595f6d;
+}
+
+h3 {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  margin: 0px;
+
+  color: #1a2951;
+}
+
+h4 {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #5c6270;
+  text-transform: uppercase;
+
+  opacity: 50%;
+}
+
+h5 {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 36px;
+  opacity: 100%;
+  font-size: 25px;
+  color: #1a2951;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Red Hat Display, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  margin-top: 10px;
+
+  color: #5c6270;
+}
+
+.hell {
+  color: white;
+}
